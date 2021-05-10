@@ -1,0 +1,20 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* ============= COMPONENTS ============= */
+
+/* ============= HEADER ============= */
