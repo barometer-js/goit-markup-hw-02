@@ -1,6 +1,7 @@
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
 }
 
 .list {
@@ -9,12 +10,49 @@
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 body {
   font-family: var(--main-font);
+  color: #000000;
 }
 
 /* ============= COMPONENTS ============= */
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* ============= COMPONENTS END ============= */
 
 /* ============= HEADER ============= */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo-first-word {
+  color: #2196f3;
+}
+
+.nav-menu {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+/* ============= HEADER END ============= */
