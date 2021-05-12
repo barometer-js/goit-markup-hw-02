@@ -26,6 +26,9 @@ body {
   color: var(--accent-color);
 }
 
+.button {
+  cursor: pointer;
+}
 /* ============= COMPONENTS END ============= */
 
 /* ============= HEADER ============= */
@@ -73,14 +76,17 @@ body {
 }
 
 .hero-button {
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   background-color: #2196f3;
   color: #ffffff;
-  font-family: var(--main-font);
-  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #188ce8;
 }
 /* ============= HERO END ============= */
 
@@ -169,3 +175,35 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 /* ============= FOOTER END ============= */
+
+/* ============= PORTFOLIO FILTER ============= */
+.portfolio-filter-button {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: #f5f4fa;
+}
+
+.portfolio-filter-button:hover {
+  color: #ffffff;
+  background-color: #188ce8;
+}
+/* ============= PORTFOLIO FILTER END ============= */
+
+/* ============= PORTFOLIO GALLERY ============= */
+.gallery-list-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery-list-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ============= PORTFOLIO GALLERY END ============= */
