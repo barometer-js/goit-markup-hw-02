@@ -2,6 +2,8 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --main-color: #212121;
+  --secondary-color: #757575;
 }
 
 .list {
@@ -15,7 +17,7 @@
 
 body {
   font-family: var(--main-font);
-  color: #000000;
+  color: var(--main-color);
 }
 
 /* ============= COMPONENTS ============= */
@@ -53,6 +55,117 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 /* ============= HEADER END ============= */
+
+/* ============= HERO ============= */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-family: var(--main-font);
+  cursor: pointer;
+}
+/* ============= HERO END ============= */
+
+/* ============= ADVANTAGE ============= */
+.advantage-list-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.advantage-list-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ============= ADVANTAGE END ============= */
+
+/* ============= OCCUPATION ============= */
+.occupations-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/* ============= OCCUPATION END ============= */
+
+/* ============= TEAM ============= */
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+}
+
+.team-list-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-list-item-description {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ============= TEAM END ============= */
+
+/* ============= FOOTER ============= */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-logo-first-word {
+  color: #2196f3;
+}
+
+.footer-list-item {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-tel-link,
+.footer-mail-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ============= FOOTER END ============= */
