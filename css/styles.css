@@ -4,6 +4,8 @@
   --accent-color: #2196f3;
   --main-color: #212121;
   --secondary-color: #757575;
+  --button-action-color: #ffffff;
+  --button-action-background-color: #188ce8;
 }
 
 .list {
@@ -47,7 +49,7 @@ body {
 }
 
 .nav-menu {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -82,7 +84,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   background-color: #2196f3;
-  color: #ffffff;
+  color: var(--button-action-color);
 }
 
 .hero-button:hover {
@@ -95,6 +97,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .advantage-list-description {
@@ -188,8 +191,8 @@ body {
 }
 
 .portfolio-filter-button:hover {
-  color: #ffffff;
-  background-color: #188ce8;
+  color: var(--button-action-color);
+  background-color: var(--button-action-background-color);
 }
 /* ============= PORTFOLIO FILTER END ============= */
 
