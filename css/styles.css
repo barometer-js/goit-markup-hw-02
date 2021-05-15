@@ -4,8 +4,22 @@
   --accent-color: #2196f3;
   --main-color: #212121;
   --secondary-color: #757575;
+  --logo-first-color: #2196f3;
+  --logo-second-color: #000000;
   --button-action-color: #ffffff;
   --button-action-background-color: #188ce8;
+  --hero-title-text-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --hero-button-background-color: #2196f3;
+  --hero-button-hover-background-color: #188ce8;
+  --team-background-color: #f5f4fa;
+  --team-list-item-background-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --footer-logo-color: #ffffff;
+  --footer-logo-first-word-color: #2196f3;
+  --footer-list-item-color: #ffffff;
+  --footer-contacts-link-color: rgba(255, 255, 255, 0.6);
+  --portfolio-filter-button-background-color: #f5f4fa;
 }
 
 .list {
@@ -31,6 +45,10 @@ body {
 .button {
   cursor: pointer;
 }
+
+.current {
+  color: var(--accent-color);
+}
 /* ============= COMPONENTS END ============= */
 
 /* ============= HEADER ============= */
@@ -41,11 +59,11 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #000000;
+  color: var(--logo-second-color);
 }
 
 .logo-first-word {
-  color: #2196f3;
+  color: var(--logo-first-color);
 }
 
 .nav-menu {
@@ -66,7 +84,7 @@ body {
 
 /* ============= HERO ============= */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-background-color);
 }
 
 .hero-title {
@@ -74,7 +92,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--hero-title-text-color);
   text-transform: uppercase;
 }
 
@@ -84,12 +102,12 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
+  background-color: var(--hero-button-background-color);
   color: var(--button-action-color);
 }
 
 .hero-button:hover {
-  background-color: #188ce8;
+  background-color: var(--hero-button-hover-background-color);
 }
 /* ============= HERO END ============= */
 
@@ -119,7 +137,7 @@ body {
 
 /* ============= TEAM ============= */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--team-background-color);
 }
 
 .team-title {
@@ -129,7 +147,7 @@ body {
 }
 
 .team-list-item {
-  background-color: #ffffff;
+  background-color: var(--team-list-item-background-color);
 }
 
 .team-list-item-title {
@@ -143,13 +161,13 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 /* ============= TEAM END ============= */
 
 /* ============= FOOTER ============= */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
 }
 
 .footer-logo {
@@ -159,11 +177,11 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--footer-logo-color);
 }
 
 .footer-logo-first-word {
-  color: #2196f3;
+  color: var(--footer-logo-first-word-color);
 }
 
 .footer-list-item {
@@ -171,12 +189,12 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--footer-list-item-color);
 }
 
 .footer-tel-link,
 .footer-mail-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-contacts-link-color);
 }
 /* ============= FOOTER END ============= */
 
@@ -188,7 +206,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  background-color: #f5f4fa;
+  background-color: var(--portfolio-filter-button-background-color);
 }
 
 .portfolio-filter-button:hover {
